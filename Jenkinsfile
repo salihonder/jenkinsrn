@@ -6,5 +6,12 @@ pipeline {
                 echo "hello world."
             }
         }
+
+        stage('Versions') {
+            steps {
+                sh 'node --version'
+                sh 'svn --version'
+            }
+        }
     }
 }
