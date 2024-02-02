@@ -1,3 +1,2 @@
-FROM node:20.11.0-alpine3.19
+FROM reactnativecommunity/react-native-android
 
-RUN apk add -U subversion
